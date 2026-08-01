@@ -53,3 +53,7 @@
 .auth-menu__item{min-height:44px}
 .download-counter-badge{display:inline-flex;align-items:center;gap:8px;padding:10px 16px;border-radius:99px;background:rgba(216,255,95,.06);border:1px solid rgba(216,255,95,.18);color:#dcd8e4;font:600 12px Manrope;backdrop-filter:blur(10px)}.download-counter-badge strong{color:var(--acid);font-family:Unbounded,sans-serif;font-weight:600}
 
+.nav-mobile-auth{display:none}
+@media(max-width:700px){.nav-mobile-auth{display:flex;padding:14px;border-top:1px solid var(--line);gap:12px;align-items:center;justify-content:center}.nav-mobile-auth .auth-button{display:inline-flex!important;padding:9px 16px;font-size:12px}}
+
+
