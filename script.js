@@ -90,3 +90,73 @@ function loadAnalytics() {
   window.ym.l = Date.now();
   window.ym("110608749", "init", { clickmap: true, trackLinks: true, accurateTrackBounce: true, webvisor: true });
 }
+
+async function initDownloadCounter() {
+  const countElements = document.querySelectorAll("[data-download-count]");
+  if (!countElements.length) return;
+
+  const CACHE_KEY = "linmo_download_count_cache";
+  const CACHE_TIME_KEY = "linmo_download_count_time";
+  const cachedCount = localStorage.getItem(CACHE_KEY);
+  const cachedTime = localStorage.getItem(CACHE_TIME_KEY);
+
+  if (cachedCount && cachedTime && Date.now() - Number(cachedTime) < 15 * 60 * 1000) {
+    updateCountUI(Number(cachedCount));
+    return;
+  }
+
+  try {
+    const response = await fetch("https://api.github.com/repos/Denis824-lab/Linmo-Releases/releases");
+    if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+    const releases = await response.json();
+
+    let totalDownloads = 0;
+    if (Array.isArray(releases)) {
+      releases.forEach((release) => {
+        if (Array.isArray(release.assets)) {
+          release.assets.forEach((asset) => {
+            if (asset.name && asset.name.toLowerCase().endsWith(".exe")) {
+              totalDownloads += asset.download_count || 0;
+            }
+          });
+        }
+      });
+    }
+
+    if (totalDownloads > 0) {
+      localStorage.setItem(CACHE_KEY, String(totalDownloads));
+      localStorage.setItem(CACHE_TIME_KEY, String(Date.now()));
+      updateCountUI(totalDownloads);
+    }
+  } catch (err) {
+    if (cachedCount) {
+      updateCountUI(Number(cachedCount));
+    }
+  }
+
+  function updateCountUI(targetCount) {
+    countElements.forEach((el) => {
+      const duration = 1200;
+      const startTime = performance.now();
+
+      function step(now) {
+        const progress = Math.min((now - startTime) / duration, 1);
+        const easeProgress = 1 - Math.pow(1 - progress, 3);
+        const current = Math.floor(easeProgress * targetCount);
+        el.textContent = current.toLocaleString("ru-RU");
+        if (progress < 1) {
+          requestAnimationFrame(step);
+        } else {
+          el.textContent = targetCount.toLocaleString("ru-RU");
+        }
+      }
+      requestAnimationFrame(step);
+    });
+  }
+}
+
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", initDownloadCounter);
+} else {
+  initDownloadCounter();
+}

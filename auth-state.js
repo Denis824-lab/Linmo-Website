@@ -83,14 +83,9 @@ function buildAuthenticatedState(controls, user) {
   dropdown.setAttribute("role", "menu");
   dropdown.hidden = true;
 
-  const profileBtn = document.createElement("button");
-  profileBtn.type = "button";
-  profileBtn.className = "auth-menu__item";
-  profileBtn.setAttribute("role", "menuitem");
-  profileBtn.textContent = "Профиль";
-  profileBtn.addEventListener("click", () => {
-    closeMenu();
-  });
+  const accountLabel = document.createElement("div");
+  accountLabel.className = "auth-menu__account";
+  accountLabel.textContent = user.email || displayName;
 
   const logoutBtn = document.createElement("button");
   logoutBtn.type = "button";
@@ -102,7 +97,7 @@ function buildAuthenticatedState(controls, user) {
     signOut(auth);
   });
 
-  dropdown.appendChild(profileBtn);
+  dropdown.appendChild(accountLabel);
   dropdown.appendChild(logoutBtn);
 
   menuWrap.appendChild(toggleBtn);

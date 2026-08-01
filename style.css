@@ -49,3 +49,7 @@
 @media(max-width:520px){.floating-field input{font-size:16px}}
 @media(max-width:700px){.legal-page__content h1{font-size:clamp(32px,10vw,44px);overflow-wrap:anywhere}}
 @media(max-width:640px){.language-ribbon{width:calc(100% - 16px);margin-inline:auto;transform:rotate(-1.3deg)}}
+.auth-menu__account{max-width:220px;padding:10px;color:var(--muted);font:500 10px Manrope;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;border-bottom:1px solid var(--line)}
+.auth-menu__item{min-height:44px}
+.download-counter-badge{display:inline-flex;align-items:center;gap:8px;padding:10px 16px;border-radius:99px;background:rgba(216,255,95,.06);border:1px solid rgba(216,255,95,.18);color:#dcd8e4;font:600 12px Manrope;backdrop-filter:blur(10px)}.download-counter-badge strong{color:var(--acid);font-family:Unbounded,sans-serif;font-weight:600}
+

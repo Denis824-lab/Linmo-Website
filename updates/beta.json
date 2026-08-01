@@ -5,5 +5,6 @@
   "notes": [
     "Beta 0.1.0-beta.25 надежнее проверяет обновления через GitHub и сохраняет резервный канал.",
     "Профиль Lingo переносится в Linmo без удаления исходных пользовательских данных."
-  ]
+  ],
+  "signature": "gOzoUbaWAXvgKfBrLwva1B6vnA/Z4qnfgWNIEIGVsRUoCa0igksn2x/Y0iEu80WFOJPGPldjX5v8K4lE5c4YAA=="
 }
