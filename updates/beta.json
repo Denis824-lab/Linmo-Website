@@ -1,10 +1,10 @@
 {
-  "version": "0.1.0-beta.25",
-  "url": "https://github.com/Denis824-lab/Linmo-Releases/releases/download/v0.1.0-beta.25/Linmo-Setup-0.1.0-beta.25.exe",
-  "sha256": "9637046fc12b2fe0892cc8dea42dfe62fae8646d519178ae2f6514b1cf1dd8cd",
+  "version": "0.1.0-beta.26",
+  "url": "https://github.com/Denis824-lab/Linmo-Releases/releases/download/v0.1.0-beta.26/Linmo-Setup-0.1.0-beta.26.exe",
+  "sha256": "959d537bb2f937e89940541d1b9c08ac9d0a09c3eb2286c392dfd2a2e4299169",
   "notes": [
-    "Beta 0.1.0-beta.25 надежнее проверяет обновления через GitHub и сохраняет резервный канал.",
-    "Профиль Lingo переносится в Linmo без удаления исходных пользовательских данных."
+    "Beta 0.1.0-beta.26 добавляет быстрый переключатель горячих клавиш в трее и отслеживание скачиваний.",
+    "Профиль Lingo автоматически переносится в Linmo без удаления пользовательских данных."
   ],
-  "signature": "gOzoUbaWAXvgKfBrLwva1B6vnA/Z4qnfgWNIEIGVsRUoCa0igksn2x/Y0iEu80WFOJPGPldjX5v8K4lE5c4YAA=="
+  "signature": "NDEpJMOg5IEVGfGkJINW3tVa+Fej0xblhzpYKo9rKqfGBk+Yhi1sZ+4NYsZ/73XnKBDu0gakpOJwJGZWbcBcBw=="
 }

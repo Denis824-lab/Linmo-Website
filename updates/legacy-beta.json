@@ -1,7 +1,7 @@
 {
-  "version": "0.1.0-beta.25",
-  "url": "https://github.com/Denis824-lab/Lingo-Releases/releases/download/v0.1.0-beta.25/Lingo-Setup-0.1.0-beta.25.exe",
-  "sha256": "9637046fc12b2fe0892cc8dea42dfe62fae8646d519178ae2f6514b1cf1dd8cd",
+  "version": "0.1.0-beta.26",
+  "url": "https://github.com/Denis824-lab/Lingo-Releases/releases/download/v0.1.0-beta.26/Lingo-Setup-0.1.0-beta.26.exe",
+  "sha256": "959d537bb2f937e89940541d1b9c08ac9d0a09c3eb2286c392dfd2a2e4299169",
   "notes": [
     "Переходное обновление устанавливает Linmo и переносит профиль Lingo без удаления исходных данных.",
     "Следующие обновления будут приходить через надежный канал Linmo."
