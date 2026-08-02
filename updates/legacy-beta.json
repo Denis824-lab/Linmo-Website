@@ -1,7 +1,7 @@
 {
   "version": "0.1.0-beta.30",
   "url": "https://github.com/Denis824-lab/Lingo-Releases/releases/download/v0.1.0-beta.30/Lingo-Setup-0.1.0-beta.30.exe",
-  "sha256": "73bc45ceef673473a8986b095ad6f222c9fb548b4818b0cab0a31237f6c3091d",
+  "sha256": "5f10c7261a6a77840b2eb982e7b0983fd638b56691ac884b28bd55a3d8554d8d",
   "notes": [
     "Переходное обновление устанавливает Linmo и переносит профиль Lingo без удаления исходных данных.",
     "Следующие обновления будут приходить через надежный канал Linmo."
