@@ -1,10 +1,10 @@
 {
-  "version": "0.1.0-beta.26",
-  "url": "https://github.com/Denis824-lab/Linmo-Releases/releases/download/v0.1.0-beta.26/Linmo-Setup-0.1.0-beta.26.exe",
-  "sha256": "959d537bb2f937e89940541d1b9c08ac9d0a09c3eb2286c392dfd2a2e4299169",
+  "version": "0.1.0-beta.27",
+  "url": "https://github.com/Denis824-lab/Linmo-Releases/releases/download/v0.1.0-beta.27/Linmo-Setup-0.1.0-beta.27.exe",
+  "sha256": "a53c3fa1657bd6eea11487346f10318e0a80f3ee8ba4dd8bf7d0edcccbde090d",
   "notes": [
-    "Beta 0.1.0-beta.26 добавляет быстрый переключатель горячих клавиш в трее и отслеживание скачиваний.",
+    "Beta 0.1.0-beta.27 добавляет интеграцию ИИ-ассистента Linni AI и расширенные возможности перевода.",
     "Профиль Lingo автоматически переносится в Linmo без удаления пользовательских данных."
   ],
-  "signature": "NDEpJMOg5IEVGfGkJINW3tVa+Fej0xblhzpYKo9rKqfGBk+Yhi1sZ+4NYsZ/73XnKBDu0gakpOJwJGZWbcBcBw=="
+  "signature": "qL0JKWSL0RHIrGoq76fdj9JAdab/fNrt67tk1BXSe6Ksy7QmiatgAjFLYVEjuWZZIRQ3tZuYxuD7nShsERxzDQ=="
 }
