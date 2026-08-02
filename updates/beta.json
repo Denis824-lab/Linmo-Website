@@ -1,10 +1,10 @@
 {
-  "version": "0.1.0-beta.27",
-  "url": "https://github.com/Denis824-lab/Linmo-Releases/releases/download/v0.1.0-beta.27/Linmo-Setup-0.1.0-beta.27.exe",
-  "sha256": "77791148a519b1b5a8dbead63f0d8db408d3ff4da97320993a32023cf11e4417",
+  "version": "0.1.0-beta.28",
+  "url": "https://github.com/Denis824-lab/Linmo-Releases/releases/download/v0.1.0-beta.28/Linmo-Setup-0.1.0-beta.28.exe",
+  "sha256": "336eb6a3d3623da477253a937aa80731cf8e1872e32f0fabc01d353324a138b1",
   "notes": [
-    "Beta 0.1.0-beta.27 добавляет интеграцию ИИ-ассистента Linni AI и расширенные возможности перевода.",
+    "Beta 0.1.0-beta.28 обновляет механизм безопасной валидации и исправления кэша.",
     "Профиль Lingo автоматически переносится в Linmo без удаления пользовательских данных."
   ],
-  "signature": "O25tu8jpw2yMfeKihjkcop7IPJ7JpWvpEMGba7kEE0P0aux6iMF9XYFTO2K6A4YSyTkNNJQwFRq9faQhABKzCA=="
+  "signature": "gWSq0D00nUqpyy8OlddhXnJN9oDmkPS50rBCKcvJnA080n7/lcg3Aw7XqeXMcDetrNf2E5Yisd6tfwiV5cjUCw=="
 }
