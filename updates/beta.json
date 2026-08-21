@@ -3,9 +3,9 @@
   "url": "https://github.com/Denis824-lab/Linmo-Releases/releases/download/v0.1.0-beta.31/Linmo-Setup-0.1.0-beta.31.exe",
   "sha256": "128339a5934b89be5f1267dd44d8f993cc0ebc3bed0bfec71c8948d76481653f",
   "notes": [
-    "Beta 0.1.0-beta.30 исправляет зависание обновления у пользователей со сломанной предыдущей установкой Lingo.",
-    "Установщик самостоятельно очищает следы старой Lingo и продолжает ставить Linmo."
+    "Исправлена надёжность обновления со старых версий Lingo и Linmo.",
+    "Установщик проверен при обновлении поверх beta.30 без повторного скачивания приложения."
   ],
   "min_supported_version": "0.1.0-beta.27",
-  "signature": "9MWYr9lB6vaQdQoQMUekpqu+V+vmEvSorZVIelJmH/z+toYosZ6LzGuStuSyqLJU6RuKisKoPzvk/x/acyTNAw=="
+  "signature": "p4+gDK7khs12yuK2ADUf28kMiKQ5XbuxB0u83x48tlS2qWgtddmtGyX+vL6phq1vWJaGqFJ0B655mWd8moj1CQ=="
 }
