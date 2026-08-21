@@ -26,4 +26,4 @@ python -m http.server 8080
 
 Перед публикацией JSON manifests должны разбираться без ошибок, URL installer
 должен быть публичным, а SHA-256 — совпадать с проверенным GitHub asset.
-Полная последовательность описана в `../RELEASE_GUIDE_RU.md`.
+Полная последовательность описана в `../docs/release/RELEASE_GUIDE_RU.md`.
